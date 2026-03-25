@@ -39,7 +39,16 @@ class MainActivity : ComponentActivity() {
                     Row() {
                         Button(
                             onClick ={
-                                results = when(text)
+                                results = when(text){
+                                    "Morning"-> "Take dog out for walk"
+                                    "Mid-morning"-> "Make plans with friends"
+                                    "Afternoon"-> "Go for brunch"
+                                    "Mid-afternoon"-> "Finish work task"
+                                    "Evening"->"Go for dinner"
+                                    "Mid-evening"->"Relax"
+
+                                    else -> "Invalid input"
+                                }
                             }
                         ) {
                             Text("suggestion")
@@ -53,6 +62,7 @@ class MainActivity : ComponentActivity() {
                             Text("Reset")
                         }
                     }
+                    Text(results)
                 }
 
             }
