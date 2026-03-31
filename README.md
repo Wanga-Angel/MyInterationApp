@@ -14,3 +14,7 @@ WHY IT HELPS CORA :
 
 IMPACT
 Regular, effortless checks can help CORA maintain healthy lifestyle and relationships .She can feel less isolated and restart her social rhythm.The app isn't just commands but cues to jumpstart her life again. 
+
+YOUTUBE VIDEO DOCUMENTATION
+https://youtu.be/7_wuPgCgdiQ?si=SVs6BT9u09Oi30Uu
+
